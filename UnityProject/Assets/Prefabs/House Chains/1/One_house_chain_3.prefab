@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1755334417221797680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3316736760902530339}
+  - component: {fileID: 6006795015640846101}
+  - component: {fileID: 27273757527110636}
+  m_Layer: 0
+  m_Name: octavia_house_top1_vers2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3316736760902530339
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755334417221797680}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 158.95, y: 274.77, z: -145.62}
+  m_LocalScale: {x: 0.78586, y: 0.78586, z: 0.78586}
+  m_Children:
+  - {fileID: 2161084347422979731}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6006795015640846101
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755334417221797680}
+  m_Mesh: {fileID: -5565148564736994614, guid: c71fb97997e04134789f7beb152043df, type: 3}
+--- !u!23 &27273757527110636
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755334417221797680}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 34f3246cc369c4e0d84fd916b03c837b, type: 2}
+  - {fileID: 2100000, guid: d48906da26b7942ed8890f1d7f54a5d2, type: 2}
+  - {fileID: 1550975326256456482, guid: c71fb97997e04134789f7beb152043df, type: 3}
+  - {fileID: 7302109655438237426, guid: c71fb97997e04134789f7beb152043df, type: 3}
+  - {fileID: 2100000, guid: 3c4d2f8815b49499ba8e5cf06e877f73, type: 2}
+  - {fileID: 2100000, guid: f2d1d011d23f24f048ecf534e597f8f2, type: 2}
+  - {fileID: 2100000, guid: d48906da26b7942ed8890f1d7f54a5d2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1001 &6379069652459593097
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3316736760902530339}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: f9fb481d9f5c54f48aa5b002799e9d1b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0034561686
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f9fb481d9f5c54f48aa5b002799e9d1b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.17
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f9fb481d9f5c54f48aa5b002799e9d1b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.00642692
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f9fb481d9f5c54f48aa5b002799e9d1b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f9fb481d9f5c54f48aa5b002799e9d1b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f9fb481d9f5c54f48aa5b002799e9d1b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f9fb481d9f5c54f48aa5b002799e9d1b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f9fb481d9f5c54f48aa5b002799e9d1b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f9fb481d9f5c54f48aa5b002799e9d1b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f9fb481d9f5c54f48aa5b002799e9d1b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f9fb481d9f5c54f48aa5b002799e9d1b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f9fb481d9f5c54f48aa5b002799e9d1b,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.2724913
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f9fb481d9f5c54f48aa5b002799e9d1b,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2724913
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: f9fb481d9f5c54f48aa5b002799e9d1b,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2724913
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: f9fb481d9f5c54f48aa5b002799e9d1b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 15bf8765a163643a895bca6537273372, type: 2}
+    - target: {fileID: -1504981713932161579, guid: f9fb481d9f5c54f48aa5b002799e9d1b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d48906da26b7942ed8890f1d7f54a5d2, type: 2}
+    - target: {fileID: -1504981713932161579, guid: f9fb481d9f5c54f48aa5b002799e9d1b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: f2d1d011d23f24f048ecf534e597f8f2, type: 2}
+    - target: {fileID: -927199367670048503, guid: f9fb481d9f5c54f48aa5b002799e9d1b,
+        type: 3}
+      propertyPath: m_Name
+      value: octavia_house_middle4_vers2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f9fb481d9f5c54f48aa5b002799e9d1b, type: 3}
+--- !u!4 &2161084347422979731 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: f9fb481d9f5c54f48aa5b002799e9d1b,
+    type: 3}
+  m_PrefabInstance: {fileID: 6379069652459593097}
+  m_PrefabAsset: {fileID: 0}
