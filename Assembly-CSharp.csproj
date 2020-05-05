@@ -97,6 +97,7 @@
     <Compile Include="Assets\Scripts\Test\TileWorleyTest.cs" />
     <Compile Include="Assets\Scripts\Test\Worley\Worley2D.cs" />
     <Compile Include="Assets\Scripts\Test\WorleySettings.cs" />
+    <Compile Include="Assets\addPhysics.cs" />
     <None Include="Assets\Scripts\Clouds\Noise\Save\Slicer.compute" />
     <None Include="Assets\Scripts\Clouds\Noise\Compute\WeatherMapGen.compute" />
     <None Include="Assets\Scripts\Clouds\Shaders\CloudSky.shader" />
