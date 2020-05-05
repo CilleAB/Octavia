@@ -66,6 +66,7 @@
     <Compile Include="Assets\AllSkyFree\AllSkyFree_Menu.cs" />
     <Compile Include="Assets\CatenaryTeste\Scripts\Catenary.cs" />
     <Compile Include="Assets\CatenaryTeste\Scripts\RopeGizmo.cs" />
+    <Compile Include="Assets\GondolaireController.cs" />
     <Compile Include="Assets\Scripts\Clouds\CloudMaster.cs" />
     <Compile Include="Assets\Scripts\Clouds\CloudNoise.cs" />
     <Compile Include="Assets\Scripts\Clouds\Noise\NoiseGenerator.cs" />
