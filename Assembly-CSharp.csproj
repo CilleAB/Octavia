@@ -63,11 +63,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\3D models\Scripts\Procedural\ProceduralBridge.cs" />
     <Compile Include="Assets\AllSkyFree\AllSkyFree_Menu.cs" />
     <Compile Include="Assets\CatenaryTeste\Scripts\Catenary.cs" />
     <Compile Include="Assets\CatenaryTeste\Scripts\RopeGizmo.cs" />
-    <Compile Include="Assets\GondolaireController.cs" />
     <Compile Include="Assets\PathCreator\Examples\Scripts\GeneratePathExample.cs" />
     <Compile Include="Assets\PathCreator\Examples\Scripts\PathFollower.cs" />
     <Compile Include="Assets\PathCreator\Examples\Scripts\PathPlacer.cs" />
@@ -82,6 +80,8 @@
     <Compile Include="Assets\Scripts\Clouds\Noise\SimplexNoiseSettings.cs" />
     <Compile Include="Assets\Scripts\Clouds\Noise\WeatherMap.cs" />
     <Compile Include="Assets\Scripts\Clouds\Noise\WorleyNoiseSettings.cs" />
+    <Compile Include="Assets\Scripts\GondolaireController.cs" />
+    <Compile Include="Assets\Scripts\Procedural\ProceduralBridge.cs" />
     <Compile Include="Assets\Scripts\RopeRenderer.cs" />
     <Compile Include="Assets\Scripts\Test\Container Ray\RayStepVis.cs" />
     <Compile Include="Assets\Scripts\Test\ContainerVis.cs" />
@@ -105,7 +105,7 @@
     <Compile Include="Assets\Scripts\Test\TileWorleyTest.cs" />
     <Compile Include="Assets\Scripts\Test\Worley\Worley2D.cs" />
     <Compile Include="Assets\Scripts\Test\WorleySettings.cs" />
-    <Compile Include="Assets\addPhysics.cs" />
+    <Compile Include="Assets\Scripts\addPhysics.cs" />
     <None Include="Assets\Scripts\Clouds\Noise\Save\Slicer.compute" />
     <None Include="Assets\Scripts\Clouds\Noise\Compute\WeatherMapGen.compute" />
     <None Include="Assets\Scripts\Clouds\Shaders\CloudSky.shader" />
