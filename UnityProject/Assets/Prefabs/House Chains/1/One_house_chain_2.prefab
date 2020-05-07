@@ -1,18 +1,19 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!65 &4788307708215908430
-BoxCollider:
+--- !u!136 &830929709500127516
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7129629093571187375}
+  m_GameObject: {fileID: 1131006760042869768}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 7.5898676, y: 2.1815019, z: 7.589867}
-  m_Center: {x: 0.00000035762793, y: -1.079747, z: 0.00000071525585}
+  m_Radius: 3.506078
+  m_Height: 6.6418295
+  m_Direction: 1
+  m_Center: {x: 0.00000023841858, y: -3.3693957, z: -0.000002861023}
 --- !u!1 &6559282245432907894
 GameObject:
   m_ObjectHideFlags: 0
@@ -29,7 +30,7 @@ GameObject:
   - component: {fileID: 7306483573424752521}
   - component: {fileID: 6760164167193637694}
   m_Layer: 0
-  m_Name: octavia_house_top4_vers2
+  m_Name: One_house_chain_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -166,20 +167,19 @@ SpringJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!136 &830929709500127516
-CapsuleCollider:
+--- !u!65 &4788307708215908430
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1131006760042869768}
+  m_GameObject: {fileID: 7129629093571187375}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 3.506078
-  m_Height: 6.6418295
-  m_Direction: 1
-  m_Center: {x: 0.00000023841858, y: -3.3693957, z: -0.000002861023}
+  serializedVersion: 2
+  m_Size: {x: 7.5898676, y: 2.1815019, z: 7.589867}
+  m_Center: {x: 0.00000035762793, y: -1.079747, z: 0.00000071525585}
 --- !u!1001 &1283643492967812006
 PrefabInstance:
   m_ObjectHideFlags: 0
