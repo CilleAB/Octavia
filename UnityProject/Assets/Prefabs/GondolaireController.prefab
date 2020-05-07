@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotateThisInstance: {fileID: 3735738913335242917}
-  thrustForceVertical: 0.1
+  thrustForceVertical: 0.25
   thrustForceHorizontal: 1
   torqueStrength: 0.5
   ThrustingUp: 0
