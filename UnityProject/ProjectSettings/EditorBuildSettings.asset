@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Scenes/Flight Demo Backup PostProcessing.unity
+    guid: 80b6bd6f8618c1743bdba876e7f0fb19
   m_configObjects: {}

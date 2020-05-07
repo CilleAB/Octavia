@@ -115,13 +115,13 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 5.14
+    value: 1.15
   threshold:
     overrideState: 1
-    value: 1.19
+    value: 0.9
   softKnee:
     overrideState: 1
-    value: 0.342
+    value: 0.663
   clamp:
     overrideState: 0
     value: 65472
@@ -138,12 +138,12 @@ MonoBehaviour:
     overrideState: 0
     value: 0
   dirtTexture:
-    overrideState: 0
-    value: {fileID: 0}
+    overrideState: 1
+    value: {fileID: 2800000, guid: 3884f7a2d04ffe8409ad9200b275896f, type: 3}
     defaultState: 1
   dirtIntensity:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 4.84
 --- !u!114 &4502762254486680773
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -197,10 +197,10 @@ MonoBehaviour:
     value: 1
   temperature:
     overrideState: 1
-    value: 0
+    value: 11
   tint:
     overrideState: 1
-    value: 0
+    value: 14
   colorFilter:
     overrideState: 1
     value: {r: 1, g: 1, b: 1, a: 1}
@@ -209,7 +209,7 @@ MonoBehaviour:
     value: 0
   saturation:
     overrideState: 1
-    value: 10
+    value: -2
   brightness:
     overrideState: 0
     value: 0
@@ -218,7 +218,7 @@ MonoBehaviour:
     value: 0.57
   contrast:
     overrideState: 1
-    value: 13
+    value: 2
   mixerRedOutRedIn:
     overrideState: 0
     value: 100
@@ -1476,13 +1476,13 @@ MonoBehaviour:
     value: 0.88
   aperture:
     overrideState: 1
-    value: 8.7
+    value: 9.7
   focalLength:
     overrideState: 1
     value: 31
   kernelSize:
     overrideState: 1
-    value: 1
+    value: 2
 --- !u!114 &5550687393913045433
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1518,8 +1518,8 @@ MonoBehaviour:
     overrideState: 0
     value: 1
   rounded:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 1
   mask:
     overrideState: 0
     value: {fileID: 0}
@@ -1539,7 +1539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6050e2d5de785ce4d931e4dbdbf2d755, type: 3}
   m_Name: ChromaticAberration
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
